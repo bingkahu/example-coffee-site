@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact & Find Us — Grounds & Glory Coffee Shop</title>
+  <meta name="description" content="Get in touch with Grounds & Glory. Find us on 12 Roast Lane, Maplewood. Opening hours, phone, email, and a quick contact form." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════
+       NAVIGATION
+  ══════════════════════════════════════════════ -->
+  <nav class="nav scrolled" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo" aria-label="Grounds & Glory home">
+          <span class="nav__logo-name">Grounds &amp; Glory</span>
+          <span class="nav__logo-tag">Specialty Coffee</span>
+        </a>
+        <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav__links" role="list">
+          <li><a href="index.html"    class="nav__link">Home</a></li>
+          <li><a href="about.html"    class="nav__link">About</a></li>
+          <li><a href="services.html" class="nav__link">Menu &amp; Services</a></li>
+          <li><a href="contact.html"  class="nav__link">Contact</a></li>
+          <li><a href="contact.html"  class="btn btn-primary nav__cta">Find Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ══════════════════════════════════════════════
+         PAGE HERO
+    ══════════════════════════════════════════════ -->
+    <section class="page-hero" aria-label="Page header">
+      <div class="container">
+        <span class="section-label page-hero__label">Say hello</span>
+        <h1 class="page-hero__title">Come Find Us</h1>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════
+         CONTACT LAYOUT
+    ══════════════════════════════════════════════ -->
+    <section class="section" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-layout">
+
+          <!-- ── Left: Info panel ─────────────────────── -->
+          <div>
+            <h2 class="contact-info__title" id="contact-heading">
+              We'd Love to<br />Hear from You
+            </h2>
+            <p class="contact-info__text">
+              Whether you have a question about our beans, want to book the back room, or just want to say hi — we read every message personally and reply within one working day.
+            </p>
+
+            <!-- Address -->
+            <div class="contact-detail">
+              <div class="contact-detail__icon" aria-hidden="true">📍</div>
+              <div>
+                <div class="contact-detail__label">Address</div>
+                <div class="contact-detail__value">12 Roast Lane, Maplewood, MW1 4QT</div>
+              </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-detail">
+              <div class="contact-detail__icon" aria-hidden="true">📞</div>
+              <div>
+                <div class="contact-detail__label">Phone</div>
+                <div class="contact-detail__value">
+                  <a href="tel:+441234567890" style="color:inherit">01234 567 890</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="contact-detail">
+              <div class="contact-detail__icon" aria-hidden="true">✉️</div>
+              <div>
+                <div class="contact-detail__label">Email</div>
+                <div class="contact-detail__value">
+                  <a href="mailto:hello@groundsandglory.co.uk" style="color:inherit">hello@groundsandglory.co.uk</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social -->
+            <div class="contact-detail">
+              <div class="contact-detail__icon" aria-hidden="true">📱</div>
+              <div>
+                <div class="contact-detail__label">Social Media</div>
+                <div class="contact-detail__value">@groundsandglory</div>
+              </div>
+            </div>
+
+            <!-- Opening hours card -->
+            <div class="contact-hours" role="region" aria-label="Opening hours">
+              <h3 class="contact-hours__title">☕ Opening Hours</h3>
+              <div class="contact-hours__row">
+                <span class="contact-hours__day">Monday – Friday</span>
+                <span class="contact-hours__time">7:00 am – 6:00 pm</span>
+              </div>
+              <div class="contact-hours__row">
+                <span class="contact-hours__day">Saturday</span>
+                <span class="contact-hours__time">8:00 am – 5:00 pm</span>
+              </div>
+              <div class="contact-hours__row">
+                <span class="contact-hours__day">Sunday</span>
+                <span class="contact-hours__time">9:00 am – 3:00 pm</span>
+              </div>
+              <div class="contact-hours__row">
+                <span class="contact-hours__day">Bank Holidays</span>
+                <span class="contact-hours__time">10:00 am – 2:00 pm</span>
+              </div>
+            </div>
+
+            <!-- Map placeholder -->
+            <div class="map-placeholder" role="img" aria-label="Map placeholder — 12 Roast Lane, Maplewood">
+              <div class="map-placeholder__icon">🗺️</div>
+              <span>Map — 12 Roast Lane, Maplewood</span>
+              <span style="font-size:0.75rem;opacity:0.6">(Embed Google Maps here)</span>
+            </div>
+
+          </div>
+
+          <!-- ── Right: Contact form ───────────────────── -->
+          <div class="contact-form" role="region" aria-label="Contact form">
+            <h2 class="form-heading">Send a Message</h2>
+            <p class="form-subheading">We reply within one working day. For urgent queries, call us directly.</p>
+
+            <form novalidate>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="first-name">First Name *</label>
+                  <input
+                    class="form-input"
+                    type="text"
+                    id="first-name"
+                    name="first_name"
+                    placeholder="Sarah"
+                    required
+                    autocomplete="given-name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="last-name">Last Name *</label>
+                  <input
+                    class="form-input"
+                    type="text"
+                    id="last-name"
+                    name="last_name"
+                    placeholder="Johnson"
+                    required
+                    autocomplete="family-name"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="email">Email Address *</label>
+                <input
+                  class="form-input"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="sarah@example.com"
+                  required
+                  autocomplete="email"
+                />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="phone">Phone Number (optional)</label>
+                <input
+                  class="form-input"
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="07700 900 123"
+                  autocomplete="tel"
+                />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="subject">What's your message about?</label>
+                <select class="form-select" id="subject" name="subject">
+                  <option value="">— Please select —</option>
+                  <option value="general">General Enquiry</option>
+                  <option value="workspace">Workspace Hire</option>
+                  <option value="catering">Event Catering</option>
+                  <option value="wholesale">Wholesale / Beans</option>
+                  <option value="feedback">Feedback</option>
+                  <option value="other">Something Else</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="message">Your Message *</label>
+                <textarea
+                  class="form-textarea"
+                  id="message"
+                  name="message"
+                  placeholder="Hi! I'd love to enquire about booking your back room for a team meeting on the 15th. We'd be around 6 people..."
+                  required
+                ></textarea>
+              </div>
+
+              <!-- Honeypot (hidden spam trap — do not display) -->
+              <div style="display:none" aria-hidden="true">
+                <label for="website">Leave this blank</label>
+                <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
+              </div>
+
+              <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+              <p class="form-note">We respect your privacy. Your details are never sold or shared.</p>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════
+         GETTING HERE
+    ══════════════════════════════════════════════ -->
+    <section class="section section--tinted" aria-labelledby="getting-here-heading">
+      <div class="container">
+
+        <span class="section-label">Getting here</span>
+        <h2 class="section-title" id="getting-here-heading">Easy to Find, Worth the Trip</h2>
+        <div class="divider"></div>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2rem;margin-top:2rem">
+
+          <div class="feature-card">
+            <div class="feature-card__icon">🚶</div>
+            <h3 class="feature-card__title">On Foot</h3>
+            <p class="feature-card__text">We're a 5-minute walk from Maplewood High Street. Head down Brewers Yard, turn left onto Roast Lane — you'll smell us before you see us.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">🚌</div>
+            <h3 class="feature-card__title">By Bus</h3>
+            <p class="feature-card__text">Routes 14, 22, and 47 stop on Maplewood High Street. Walk down Church Passage and we're on the right-hand side.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">🚲</div>
+            <h3 class="feature-card__title">By Bike</h3>
+            <p class="feature-card__text">Plenty of bike racks outside our door. Maplewood is on the National Cycle Network Route 6, so drop in mid-ride!</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">🚗</div>
+            <h3 class="feature-card__title">By Car</h3>
+            <p class="feature-card__text">Nearest car park is the Market Square multi-storey (MW1 4AR) — 3 minutes on foot. Free on Sundays after 11 am.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__about-col">
+          <span class="footer__logo-name">Grounds &amp; Glory</span>
+          <span class="footer__tagline">Specialty Coffee · Maplewood</span>
+          <p class="footer__about">A small coffee shop with big ambitions. We care about every cup, every customer, and every farmer who grew our beans.</p>
+        </div>
+        <div>
+          <h3 class="footer__col-title">Explore</h3>
+          <ul class="footer__links" role="list">
+            <li><a href="index.html"    class="footer__link">Home</a></li>
+            <li><a href="about.html"    class="footer__link">About Us</a></li>
+            <li><a href="services.html" class="footer__link">Menu &amp; Services</a></li>
+            <li><a href="contact.html"  class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="footer__col-title">Find Us</h3>
+          <ul class="footer__links" role="list">
+            <li class="footer__link">12 Roast Lane, Maplewood</li>
+            <li class="footer__link">hello@groundsandglory.co.uk</li>
+            <li class="footer__link">01234 567 890</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2025 Grounds &amp; Glory. All rights reserved. Website by <strong style="color:rgba(250,247,242,0.65)">YourFreelanceName</strong>.</p>
+        <div class="footer__socials" aria-label="Social media links">
+          <a href="#" class="social-btn" aria-label="Instagram">📷</a>
+          <a href="#" class="social-btn" aria-label="Facebook">👥</a>
+          <a href="#" class="social-btn" aria-label="TikTok">🎵</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
